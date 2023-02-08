@@ -75,16 +75,16 @@
                             AllPrice += zz.Price;
                         }
 
-                        /*string info = "Заказ от: " + Convert.ToString(DateTime.Now) + '\n' + "\tЗаказ: " + str + '\n' + "\tЦена: " + AllPrice + '.';
-                        string path = "D:\\zakaz\\zakaz.txt";
+                        string info = "Заказ от: " + Convert.ToString(DateTime.Now) + '\n' + "\tЗаказ: " + str + '\n' + "\tЦена: " + AllPrice + '.';
+                        string path = "C:\\Users\\Public\\Documents\\zakaz.txt";
                         if (!File.Exists(path))
                         {
-                            File.Create("D:\\zakaz\\zakaz.txt").Dispose();
-                            File.AppendAllText("D:\\zakaz\\zakaz.txt", info);
+                            File.Create("C:\\Users\\Public\\Documents\\zakaz.txt").Dispose();
+                            File.AppendAllText("C:\\Users\\Public\\Documents\\zakaz.txt", info);
                         }
-                        else { File.AppendAllText("D:\\zakaz\\zakaz.txt", '\n' + info); }
+                        else { File.AppendAllText("C:\\Users\\Public\\Documents\\zakaz.txt", '\n' + info); }
                         noExit = false;
-                        break;*/
+                        break;
                     }
                     Console.Clear();
                 }
