@@ -19,7 +19,6 @@
                 Menu m = new Menu();
                 while (noExit)
                 {
-                    //Интерфейс.
                     if (pos < 3) { pos = 9; }
                     if (pos > 9) { pos = 3; }
                     Console.WriteLine("Вас приветствует Магазин Мега-Тортики!");
@@ -45,7 +44,6 @@
                     Console.WriteLine("Цена вашего торта: " + AllPrice);
                     Console.SetCursorPosition(0, 12);
                     Console.Write("Итог: ");
-                    //Вывод стрелки
                     Console.SetCursorPosition(0, pos);
                     Console.WriteLine("->");
                     ConsoleKeyInfo key = Console.ReadKey();
